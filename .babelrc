@@ -1,0 +1,4 @@
+{
+    "presets": ["es2016", "react", "es2015-ie"],
+    "plugins": ["transform-class-properties"]
+}

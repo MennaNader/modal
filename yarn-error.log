@@ -1,0 +1,75 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Mennatallah.elsayed\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files\Microsoft MPI\Bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files\dotnet\;C:\Users\Mennatallah.elsayed\.dnx\bin;C:\Users\Mennatallah.elsayed\AppData\Local\Microsoft\WindowsApps;C:\Users\Mennatallah.elsayed\AppData\Roaming\npm;C:\Program Files\Microsoft VS Code\bin;
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  8.10.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "modal",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "webpack-dev-server",
+      "build": "webpack --progress --profile --colors",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "storybook": "start-storybook -p 6006",
+      "build-storybook": "build-storybook"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "babel-cli": "^6.26.0",
+      "babel-loader": "^7.1.4",
+      "babel-plugin-transform-class-properties": "^6.24.1",
+      "babel-polyfill": "^6.26.0",
+      "babel-preset-env": "^1.6.1",
+      "babel-preset-es2015-ie": "^6.7.0",
+      "babel-preset-es2016": "^6.24.1",
+      "babel-preset-react": "^6.24.1",
+      "clean-webpack-plugin": "^0.1.19",
+      "css-loader": "^0.28.11",
+      "eslint": "^4.19.1",
+      "eslint-loader": "^2.0.0",
+      "eslint-plugin-react": "^7.7.0",
+      "extract-text-webpack-plugin": "^3.0.2",
+      "html-webpack-plugin": "^3.1.0",
+      "mini-css-extract-plugin": "^0.2.0",
+      "node-sass": "^4.8.3",
+      "sass-loader": "^6.0.7",
+      "style-loader": "^0.20.3",
+      "webpack": "^4.2.0",
+      "webpack-cli": "^2.0.13",
+      "webpack-dev-server": "^3.1.1",
+      "@storybook/react": "^3.3.15",
+      "@storybook/addon-actions": "^3.3.15",
+      "@storybook/addon-links": "^3.3.15",
+      "@storybook/addons": "^3.3.15",
+      "babel-core": "^6.26.0"
+    },
+    "dependencies": {
+      "no-scroll": "^2.1.0",
+      "prop-types": "^15.6.1",
+      "react": "^16.2.0",
+      "react-dom": "^16.2.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Mennatallah.elsayed\Desktop\modal\node_modules\node-sass\vendor\win32-x64-57\binding.node'
